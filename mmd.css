@@ -1,0 +1,23 @@
+.body_class{
+    direction: rtl;
+}
+
+.div_class{
+
+}
+
+.div_1{
+    width: 300px; height: 200px; background-color: mediumblue; font-family: "B Nazanin"; padding: 80px;
+}
+
+.pre{
+    color: white; font-size: 50px;
+}
+i mk
+.h1{
+    border: 2px solid #00ff89;
+}
+
+.table{
+    border: 2px solid black; font-family: "B Nazanin"; font-size: 30px;
+}
