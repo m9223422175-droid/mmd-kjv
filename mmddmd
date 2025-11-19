@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    input{
+        font-size: 25px ; width: 1000px ; height: 50px ; margin-top: 100px ; margin-bottom: 0px ; border: 5px solid black;
+    }
+</style>
+<body style="direction: rtl">
+<div style="width: 100% ; height: auto ; background-color: #001eff">
+    <form style="text-align: center">
+        <label for="mmd" style="font-size: 50px ; margin-bottom: 0px" ><b>وارد کنید:</b></label>
+        <input id="mmd" type="text" placeholder="نـام فـیـلـم یـا بـازیـگـر را وارد کـنـیـد: ">
+    </form>
+    <h1 style="text-align: center ; font-size: 200px ; margin: 0px ; padding-top: 100px">xnxx.com</h1>
+    <hr style="height: 5px ; background-color: white">
+    <video width="100%" height="360" controls style="margin-top: 90px ; margin-bottom: 50px">
+        <source src="mmd/1.mp4" type="video/mp4">
+        مرورگر شما از پخش ویدیو پشتیبانی نمی‌کند.
+    </video>
+    <br>
+    <hr style="height: 5px ; background-color: white">
+    <video width="100%" height="360" controls style="margin-top: 50px ; margin-bottom: 50px">
+        <source src="mmd/2.mp4" type="video/mp4">
+        مرورگر شما از پخش ویدیو پشتیبانی نمی‌کند.
+    </video>
+    <br>
+    <hr style="height: 5px ; background-color: white">
+
+    <video width="100%" height="360" controls style="margin-top: 50px ; margin-bottom: 50px">
+        <source src="mmd/3.mp4" type="video/mp4">
+        مرورگر شما از پخش ویدیو پشتیبانی نمی‌کند.
+    </video>
+    <br>
+    <hr style="height: 5px ; background-color: white">
+    <video width="100%" height="360" controls style="margin-top: 50px ; margin-bottom: 50px">
+        <source src="mmd/4.mp4" type="video/mp4">
+        مرورگر شما از پخش ویدیو پشتیبانی نمی‌کند.
+    </video>
+    <br>
+    <hr style="height: 5px ; background-color: white">
+    <video width="100%" height="360" controls style="margin-top: 50px ; margin-bottom: 50px">
+        <source src="mmd/5.mp4" type="video/mp4">
+        مرورگر شما از پخش ویدیو پشتیبانی نمی‌کند.
+    </video>
+    <br>
+    <hr style="height: 5px ; background-color: white">
+    <video width="100%" height="360" controls style="margin-top: 50px ; margin-bottom: 50px">
+        <source src="mmd/6.mp4" type="video/mp4">
+        مرورگر شما از پخش ویدیو پشتیبانی نمی‌کند.
+    </video>
+    <br>
+    <hr style="height: 5px ; background-color: white">
+    <video width="100%" height="360" controls style="margin-top: 50px ; margin-bottom: 50px">
+        <source src="mmd/7.mp4" type="video/mp4">
+        مرورگر شما از پخش ویدیو پشتیبانی نمی‌کند.
+    </video>
+    <br>
+    <hr style="height: 5px ; background-color: white">
+    <video width="100%" height="360" controls style="margin-top: 50px ; margin-bottom: 50px">
+        <source src="mmd/8.mp4" type="video/mp4">
+        مرورگر شما از پخش ویدیو پشتیبانی نمی‌کند.
+    </video>
+    <br>
+    <hr style="height: 5px ; background-color: white">
+    <video width="100%" height="360" controls style="margin-top: 50px ; margin-bottom: 50px">
+        <source src="mmd/9.mp4" type="video/mp4">
+        مرورگر شما از پخش ویدیو پشتیبانی نمی‌کند.
+    </video>
+    <br>
+    <hr style="height: 5px ; background-color: white">
+    <video width="100%" height="360" controls style="margin-top: 50px ; margin-bottom: 100px">
+        <source src="mmd/10.mp4" type="video/mp4">
+        مرورگر شما از پخش ویدیو پشتیبانی نمی‌کند.
+    </video>
+    <hr style="height: 5px ; background-color: white">
+    <h1 style="text-align: center ; font-size: 300px ; margin: 0px">پایان</h1>
+</div>
+</body></html>
