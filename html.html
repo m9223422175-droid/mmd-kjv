@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>محمد رضا</title>
+  <style>
+    body {
+      margin: 0;
+      background: #001eff;
+      font-family: sans-serif;
+      color: white;
+      text-align: center;
+    }
+    h1 {
+      font-size:70px;
+      margin-top:20px;
+    }
+    .slot {
+      width: 90%;
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      border: 5px dashed white;
+      border-radius: 15px;
+      cursor: pointer;
+      font-size: 40px;
+    }
+    video {
+      width: 100%;
+      height: 360px;
+      object-fit: cover;
+      border-radius: 12px;
+      border: 4px solid white;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>xnxx.com</h1>
+
+  <!-- سرچ باکس -->
+  <form style="text-align:center; margin-top:40px;">
+    <label for="search" style="font-size:40px;"><b>جستجو:</b></label>
+    <input id="search" type="text" placeholder="نـام فـیـلـم یـا بـازیـگـر را وارد کـنـیـد" 
+           style="font-size:25px; width:90%; max-width:600px; height:50px; margin-top:20px; border:5px solid black; border-radius:10px;">
+  </form>
+  <hr style="height:5px; background-color:white; margin-top:40px;">
+
+  <script>
+    function selectVideo(num) {
+      const input = document.getElementById("input" + num);
+      input.click();
+    }
+
+    function loadVideo(num) {
+      const input = document.getElementById("input" + num);
+      const slot = document.getElementById("slot" + num);
+
+      if (input.files.length > 0) {
+        const file = input.files[0];
+        const url = URL.createObjectURL(file);
+
+        slot.innerHTML = `<video controls src="${url}"></video>`;
+      }
+    }
+  </script>
+
+  <!-- ایجاد ۱۰ اسلات قابل کلیک مثل کد اصلی شما -->
+  <div id="container">
+    <script>
+      for (let i = 1; i <= 10; i++) {
+        document.write(`
+          <div class='slot' id='slot${i}' onclick='selectVideo(${i})'>
+            برای افزودن ویدیو اینجا کلیک کنید (${i})
+          </div>
+          <input type='file' id='input${i}' accept='video/*' style='display:none' onchange='loadVideo(${i})'>
+          <hr style='height: 5px; background-color: white;'>
+        `);
+      }
+    </script>
+  </div>
+
+  <h1 style="font-size:200px;">پایان</h1>
+</body>
+</html>
